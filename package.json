@@ -37,12 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-finite": "^0.2.1",
     "@stdlib/assert-is-nonnegative-number": "^0.2.1",
+    "@stdlib/constants-float64-pinf": "^0.2.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/constants-float64-ninf": "^0.2.1",
     "@stdlib/number-ctor": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
@@ -77,7 +78,6 @@
     "numeric",
     "nonnegative",
     "finite",
-    "nonnegativefinite",
     "is",
     "isnumber",
     "isnumeric",

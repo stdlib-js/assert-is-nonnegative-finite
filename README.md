@@ -65,7 +65,7 @@ var isNonNegativeFinite = require( '@stdlib/assert-is-nonnegative-finite' );
 
 #### isNonNegativeFinite( value )
 
-Tests if a `value` is a `number` having a nonnegative finite value.
+Tests if a value is a number having a nonnegative finite value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -87,13 +87,13 @@ bool = isNonNegativeFinite( -5.0 );
 bool = isNonNegativeFinite( null );
 // returns false
 
-bool = isNonNegativeFinite( Infinity );
+bool = isNonNegativeFinite( 1.0/0.0 );
 // returns false
 ```
 
 #### isNonNegativeFinite.isPrimitive( value )
 
-Tests if a `value` is a primitive `number` having a nonnegative finite value.
+Tests if a value is a primitive number having a nonnegative finite value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -109,7 +109,7 @@ bool = isNonNegativeFinite.isPrimitive( new Number( 3.0 ) );
 
 #### isNonNegativeFinite.isObject( value )
 
-Tests if a `value` is a `Number` object having a nonnegative finite value.
+Tests if a value is a `Number` object having a nonnegative finite value.
 
 <!-- eslint-disable no-new-wrappers -->
 
@@ -145,6 +145,12 @@ var bool = isNonNegativeFinite( 5.0 );
 bool = isNonNegativeFinite( new Number( 5.0 ) );
 // returns true
 
+bool = isNonNegativeFinite( new Number( 1.0/0.0 ) );
+// returns false
+
+bool = isNonNegativeFinite( 1.0/0.0 );
+// returns false
+
 bool = isNonNegativeFinite( 0.0 );
 // returns true
 
@@ -168,13 +174,6 @@ bool = isNonNegativeFinite( null );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/assert-is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
--   <span class="package-name">[`@stdlib/assert-is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
 
 </section>
 
@@ -251,13 +250,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/assert-is-nonnegative-finite/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-nonnegative-finite/main/LICENSE
-
-<!-- <related-links> -->
-
-[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
-[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite
-
-<!-- </related-links> -->
 
 </section>
 

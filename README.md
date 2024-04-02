@@ -175,6 +175,14 @@ bool = isNonNegativeFinite( null );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
+-   <span class="package-name">[`@stdlib/assert-is-nonnegative-number`][@stdlib/assert/is-nonnegative-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonnegative value.</span>
+-   <span class="package-name">[`@stdlib/assert-is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -250,6 +258,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/assert-is-nonnegative-finite/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-nonnegative-finite/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite
+
+[@stdlib/assert/is-nonnegative-number]: https://github.com/stdlib-js/assert-is-nonnegative-number
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
+
+<!-- </related-links> -->
 
 </section>
 
